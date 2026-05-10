@@ -1,1 +1,11 @@
-temp
+[project]
+name = "sharechat-trending-tags"
+version = "0.1.0"
+description = "ShareChat trending tags MVP built with FastAPI"
+requires-python = ">=3.12"
+dependencies = [
+    "fastapi",
+    "uvicorn[standard]",
+    "requests",
+    "pydantic",
+]
